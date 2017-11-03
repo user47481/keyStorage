@@ -15,7 +15,7 @@ class KeyStorage extends Component
     /**
      * @var string
      */
-    public $cachePrefix = '_keyStorage';
+    public $cachePrefix = '_keyStorageModule';
     /**
      * @var int
      */

@@ -47,7 +47,7 @@ class FormModel extends Model
     /**
      * @var string
      */
-    public $keyStorage = 'keyStorage';
+    public $keyStorage = 'keyStorageModule';
 
     /**
      * @var array
