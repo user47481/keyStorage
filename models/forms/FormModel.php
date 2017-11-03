@@ -1,6 +1,6 @@
 <?php
 
-namespace keyStorage\models;
+namespace keyStorage\models\forms;
 
 use Yii;
 use yii\base\Exception;

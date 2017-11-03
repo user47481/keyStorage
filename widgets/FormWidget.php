@@ -2,6 +2,7 @@
 
 namespace keyStorage\widgets;
 
+use keyStorage\models\forms\FormModel;
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;

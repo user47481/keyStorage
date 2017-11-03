@@ -1,6 +1,6 @@
 <?php
 
-namespace common\models;
+namespace keyStorage\models\db;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
@@ -19,7 +19,7 @@ class KeyStorageItem extends ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%settings}}';
+        return '{{%keyStorage_settings}}';
     }
 
     public function behaviors()
@@ -53,7 +53,6 @@ class KeyStorageItem extends ActiveRecord
             'key' => Yii::t('common', 'Key'),
             'value' => Yii::t('common', 'Value'),
             'comment' => Yii::t('common', 'Comment'),
-            'class' => Yii::t('common', 'Class'),
         ];
     }
 }

@@ -1,6 +1,7 @@
 <?php
 namespace keyStorage;
 
+use common\models\db\KeyStorageItem;
 use yii\base\Component;
 use yii\helpers\ArrayHelper;
 use Yii;
@@ -22,7 +23,7 @@ class KeyStorage extends Component
     /**
      * @var string
      */
-    public $modelClass = '\common\models\KeyStorageItem';
+    public $modelClass = 'keyStorage\models\db\KeyStorageItem';
 
     /**
      * @var array Runtime values cache
